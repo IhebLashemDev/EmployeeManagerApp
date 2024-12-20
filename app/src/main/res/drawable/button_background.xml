@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur de fond du bouton -->
+    <solid android:color="#2575FC"/>  <!-- Couleur bleu -->
+
+    <!-- Définition de la bordure -->
+    <stroke
+        android:color="#1D61D1"
+    android:width="2dp"/>     <!-- Épaisseur de la bordure -->
+
+    <!-- Coins arrondis -->
+    <corners android:radius="16dp"/> <!-- Coins plus arrondis (16dp) -->
+
+    <!-- Ombre légère pour un effet de profondeur -->
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp"/>
+</shape>

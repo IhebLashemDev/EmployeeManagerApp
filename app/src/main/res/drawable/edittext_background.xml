@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Définition de la couleur de fond -->
+    <solid android:color="#FFFFFF"/> <!-- Fond blanc -->
+
+    <!-- Définition de la bordure -->
+    <stroke
+        android:color="#D3D3D3"
+    android:width="1dp"/>     <!-- Épaisseur de la bordure -->
+
+    <!-- Coins arrondis -->
+    <corners android:radius="8dp"/> <!-- Coins arrondis avec un rayon de 8dp -->
+
+    <!-- Ombre légère -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/>
+</shape>
